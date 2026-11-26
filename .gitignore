@@ -1,0 +1,32 @@
+# Python & build artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# Heavy generated CAD / CFD binaries & remote run outputs (reproducible via CLI; large artifacts via archive)
+benchmarks/geometries/
+benchmarks/kmou_ansys/
+*.step
+*.stp
+*.stl
+*.msh
+*.scdocx
+*.cas.h5
+*.dat.h5
+
+# Unpublished manuscript files & deliverables
+paper/
+deliverables/
+benchmarks/results/opus55_*.md
+
+# Local credentials & temp files
+.env
+.env.*
+*.log
+_tmp_*/
+_pdf_preview/

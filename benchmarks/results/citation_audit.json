@@ -1,0 +1,332 @@
+﻿{
+  "verification_tool": "scholarly_bridge.scholarly_verify_batch",
+  "total": 46,
+  "verified": 46,
+  "mismatch": 0,
+  "not_found": 0,
+  "entries": [
+    {
+      "entry_id": "Al_Ketan_2020_mslattice",
+      "type": "article",
+      "year": "2021",
+      "doi": "10.1002/mdp2.205",
+      "status": "VERIFIED"
+    },
+    {
+      "entry_id": "Maskery_2022",
+      "type": "article",
+      "year": "2022",
+      "doi": "10.1016/j.addma.2021.102510",
+      "status": "VERIFIED"
+    },
+    {
+      "entry_id": "Chris_Amadin_2024",
+      "type": "article",
+      "year": "2024",
+      "doi": "10.1016/j.simpa.2024.100665",
+      "status": "VERIFIED"
+    },
+    {
+      "entry_id": "Geuzaine_2009",
+      "type": "article",
+      "year": "2009",
+      "doi": "10.1002/nme.2579",
+      "status": "VERIFIED"
+    },
+    {
+      "entry_id": "Lorensen_1987",
+      "type": "inproceedings",
+      "year": "1987",
+      "doi": "10.1145/37401.37422",
+      "status": "VERIFIED"
+    },
+    {
+      "entry_id": "Taubin_1995",
+      "type": "inproceedings",
+      "year": "1995",
+      "doi": "10.1145/218380.218473",
+      "status": "VERIFIED"
+    },
+    {
+      "entry_id": "Desbrun_1999",
+      "type": "inproceedings",
+      "year": "1999",
+      "doi": "10.1145/311535.311576",
+      "status": "VERIFIED"
+    },
+    {
+      "entry_id": "Newman_2006",
+      "type": "article",
+      "year": "2006",
+      "doi": "10.1016/j.cag.2006.07.021",
+      "status": "VERIFIED"
+    },
+    {
+      "entry_id": "Cherchi_2022",
+      "type": "article",
+      "year": "2022",
+      "doi": "10.1145/3550454.3555460",
+      "status": "VERIFIED"
+    },
+    {
+      "entry_id": "Marot_2018",
+      "type": "article",
+      "year": "2019",
+      "doi": "10.1002/nme.5987",
+      "status": "VERIFIED"
+    },
+    {
+      "entry_id": "Lewiner_2003",
+      "type": "article",
+      "year": "2003",
+      "doi": "10.1080/10867651.2003.10487582",
+      "status": "VERIFIED"
+    },
+    {
+      "entry_id": "van_der_Walt_2014",
+      "type": "article",
+      "year": "2014",
+      "doi": "10.7717/peerj.453",
+      "status": "VERIFIED"
+    },
+    {
+      "entry_id": "Virtanen_2020",
+      "type": "article",
+      "year": "2020",
+      "doi": "10.1038/s41592-019-0686-2",
+      "status": "VERIFIED"
+    },
+    {
+      "entry_id": "Shah_1980",
+      "type": "article",
+      "year": "1980",
+      "doi": "10.1115/1.3240677",
+      "status": "VERIFIED"
+    },
+    {
+      "entry_id": "Kranz_2014",
+      "type": "article",
+      "year": "2015",
+      "doi": "10.2351/1.4885235",
+      "status": "VERIFIED"
+    },
+    {
+      "entry_id": "Aycan_2023",
+      "type": "article",
+      "year": "2023",
+      "doi": "10.1016/j.mechrescom.2023.104188",
+      "status": "VERIFIED"
+    },
+    {
+      "entry_id": "Zhou_2025",
+      "type": "inproceedings",
+      "year": "2025",
+      "doi": "10.14733/cadconfp.2025.160-165",
+      "status": "VERIFIED"
+    },
+    {
+      "entry_id": "Danglade_2015",
+      "type": "inproceedings",
+      "year": "2015",
+      "doi": "10.14733/cadconfp.2015.53-57",
+      "status": "VERIFIED"
+    },
+    {
+      "entry_id": "Gleadall_2021",
+      "type": "article",
+      "year": "2021",
+      "doi": "10.1016/j.addma.2021.102109",
+      "status": "VERIFIED"
+    },
+    {
+      "entry_id": "Al_Ketan_2020_graded",
+      "type": "article",
+      "year": "2020",
+      "doi": "10.1016/j.jmbbm.2019.103520",
+      "status": "VERIFIED"
+    },
+    {
+      "entry_id": "Abou_Ali_2020",
+      "type": "article",
+      "year": "2020",
+      "doi": "10.1016/j.matdes.2020.109100",
+      "status": "VERIFIED"
+    },
+    {
+      "entry_id": "Novak_2021",
+      "type": "article",
+      "year": "2021",
+      "doi": "10.1016/j.compstruct.2021.113801",
+      "status": "VERIFIED"
+    },
+    {
+      "entry_id": "Zhang_2021",
+      "type": "article",
+      "year": "2021",
+      "doi": "10.1016/j.matdes.2021.109931",
+      "status": "VERIFIED"
+    },
+    {
+      "entry_id": "Zhang_2022",
+      "type": "article",
+      "year": "2022",
+      "doi": "10.1016/j.matdes.2022.110665",
+      "status": "VERIFIED"
+    },
+    {
+      "entry_id": "Jones_2022",
+      "type": "article",
+      "year": "2022",
+      "doi": "10.1016/j.matdes.2022.110908",
+      "status": "VERIFIED"
+    },
+    {
+      "entry_id": "Catchpole_Smith_2019",
+      "type": "article",
+      "year": "2019",
+      "doi": "10.1016/j.addma.2019.100846",
+      "status": "VERIFIED"
+    },
+    {
+      "entry_id": "Hossain_2025",
+      "type": "article",
+      "year": "2025",
+      "doi": "10.3390/polym17243307",
+      "status": "VERIFIED"
+    },
+    {
+      "entry_id": "Ouda_2020",
+      "type": "article",
+      "year": "2020",
+      "doi": "10.1016/j.jece.2020.104289",
+      "status": "VERIFIED"
+    },
+    {
+      "entry_id": "Asbai_Ghoudan_2021",
+      "type": "article",
+      "year": "2021",
+      "doi": "10.1016/j.jmbbm.2021.104804",
+      "status": "VERIFIED"
+    },
+    {
+      "entry_id": "Li_2022",
+      "type": "article",
+      "year": "2022",
+      "doi": "10.1016/j.applthermaleng.2022.119198",
+      "status": "VERIFIED"
+    },
+    {
+      "entry_id": "Rathore_2022",
+      "type": "article",
+      "year": "2023",
+      "doi": "10.1007/s11242-022-01880-7",
+      "status": "VERIFIED"
+    },
+    {
+      "entry_id": "Rathore_2023",
+      "type": "article",
+      "year": "2024",
+      "doi": "10.1007/s11242-023-02036-x",
+      "status": "VERIFIED"
+    },
+    {
+      "entry_id": "Piedra_2023",
+      "type": "article",
+      "year": "2023",
+      "doi": "10.3390/fluids8120312",
+      "status": "VERIFIED"
+    },
+    {
+      "entry_id": "Chouhan_2023",
+      "type": "article",
+      "year": "2023",
+      "doi": "10.1016/j.rinma.2023.100478",
+      "status": "VERIFIED"
+    },
+    {
+      "entry_id": "Chouhan_2025",
+      "type": "article",
+      "year": "2026",
+      "doi": "10.1007/s40964-025-01366-0",
+      "status": "VERIFIED"
+    },
+    {
+      "entry_id": "Saghir_2024",
+      "type": "article",
+      "year": "2024",
+      "doi": "10.3390/en17174275",
+      "status": "VERIFIED"
+    },
+    {
+      "entry_id": "Ferroni_2021",
+      "type": "article",
+      "year": "2021",
+      "doi": "10.1021/acs.iecr.1c00215",
+      "status": "VERIFIED"
+    },
+    {
+      "entry_id": "Ferroni_2022",
+      "type": "article",
+      "year": "2022",
+      "doi": "10.1021/acsengineeringau.1c00034",
+      "status": "VERIFIED"
+    },
+    {
+      "entry_id": "Ferroni_2024",
+      "type": "article",
+      "year": "2024",
+      "doi": "10.1016/j.cep.2023.109613",
+      "status": "VERIFIED"
+    },
+    {
+      "entry_id": "Balzarotti_2021",
+      "type": "article",
+      "year": "2021",
+      "doi": "10.1016/j.apcatb.2020.119651",
+      "status": "VERIFIED"
+    },
+    {
+      "entry_id": "Papetti_2021",
+      "type": "article",
+      "year": "2021",
+      "doi": "10.1016/j.ces.2021.116448",
+      "status": "VERIFIED"
+    },
+    {
+      "entry_id": "Ambrosetti_2020",
+      "type": "article",
+      "year": "2020",
+      "doi": "10.1016/j.cep.2020.108057",
+      "status": "VERIFIED"
+    },
+    {
+      "entry_id": "Iwaniszyn_2022",
+      "type": "article",
+      "year": "2022",
+      "doi": "10.3390/en15207703",
+      "status": "VERIFIED"
+    },
+    {
+      "entry_id": "Bratsun_2024",
+      "type": "article",
+      "year": "2024",
+      "doi": "10.32604/fdmp.2024.047928",
+      "status": "VERIFIED"
+    },
+    {
+      "entry_id": "Moeinnia_2026",
+      "type": "article",
+      "year": "2026",
+      "doi": "10.1093/jcde/qwag085",
+      "status": "VERIFIED"
+    },
+    {
+      "entry_id": "Alteneiji_2022",
+      "type": "article",
+      "year": "2022",
+      "doi": "10.1016/j.enss.2022.04.005",
+      "status": "VERIFIED"
+    }
+  ]
+}
+

@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+title: "tpms2cfd: Dual-Track Analytic B-Rep and Watertight Implicit Sheet Software for Reproducible Architected Lattice CAD-to-CFD Workflows"
+message: "If you use this software in academic work, please cite it using the metadata below."
+type: software
+version: "1.0.0"
+date-released: "2026-11-26"
+license: MIT
+repository-code: "https://github.com/ttthkim-hue/tpms2cfd"
+authors:
+  - family-names: Kim
+    given-names: Tae-Hyung
+    email: ttthkim@gmail.com
+    orcid: "https://orcid.org/0009-0003-5047-7501"
+    affiliation: "Korea Institute of Limestone and Advanced Materials (KILAM)"
+  - family-names: Jeong
+    given-names: Bora
+    email: bora1106@kitech.re.kr
+    affiliation: "Korea Institute of Industrial Technology (KITECH)"
+  - family-names: Lee
+    given-names: Min-Woo
+  - family-names: Kim
+    given-names: Young-Jin
+    affiliation: "Korea Institute of Limestone and Advanced Materials (KILAM)"
+  - family-names: Kim
+    given-names: Hong-Dae
+    email: hdkim@kitech.re.kr
+    affiliation: "Korea Institute of Industrial Technology (KITECH)"
+keywords:
+  - triply-periodic-minimal-surfaces
+  - open-cellular-structures
+  - opencascade
+  - watertight-cfd-meshing
+  - computational-fluid-dynamics
+  - additive-manufacturing

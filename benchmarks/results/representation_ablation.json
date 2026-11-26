@@ -1,0 +1,91 @@
+{
+  "environment": {
+    "python": "3.11.9",
+    "os": "Windows-10-10.0.26200-SP0",
+    "cpu_count": 48,
+    "gmsh_threads": 1,
+    "packages": {
+      "numpy": "2.4.6",
+      "scipy": "1.17.1",
+      "scikit-image": "0.26.0",
+      "trimesh": "5.2.2",
+      "manifold3d": "3.5.5",
+      "gmsh": "4.15.2",
+      "cadquery-ocp": "7.9.3.1.1"
+    }
+  },
+  "pair_a_srs_identical_geometry": [
+    {
+      "variant": "Analytic B-Rep STEP",
+      "case_id": "UC_GYROID_SRS_RVE40",
+      "chordal_deflection_mm": 0.0,
+      "faces": 114,
+      "solid_count": 1,
+      "size_mib": 0.8824,
+      "ocp_parse_transfer_s": 0.238,
+      "ocp_heal_audit_s": 0.287,
+      "hausdorff_max_mm": 0.0,
+      "hausdorff_rms_mm": 0.0,
+      "volume_rel_err_pct": 0.0,
+      "gmsh_occ_solids_status": "OK"
+    },
+    {
+      "variant": "Faceted STEP (delta=0.10 mm)",
+      "case_id": "CTRL_FACETED_SRS_d01",
+      "chordal_deflection_mm": 0.1,
+      "faces": 7678,
+      "solid_count": 0,
+      "size_mib": 18.3053,
+      "ocp_parse_transfer_s": 4.626,
+      "ocp_heal_audit_s": 5.677,
+      "volume_rel_err_pct": 0.0143,
+      "gmsh_occ_solids_status": "FAILED: OSError: exception: access violation reading 0x000001B8826F20D8",
+      "step_path": "benchmarks/geometries/ablation/CTRL_FACETED_SRS_d01_FLUID.step",
+      "hausdorff_max_mm": 0.83645,
+      "hausdorff_rms_mm": 0.24651
+    },
+    {
+      "variant": "Faceted STEP (delta=0.05 mm)",
+      "case_id": "CTRL_FACETED_SRS_d005",
+      "chordal_deflection_mm": 0.05,
+      "faces": 7872,
+      "solid_count": 0,
+      "size_mib": 18.7827,
+      "ocp_parse_transfer_s": 4.844,
+      "ocp_heal_audit_s": 5.442,
+      "volume_rel_err_pct": 0.0139,
+      "gmsh_occ_solids_status": "FAILED: Exception: HXT 3D mesh failed",
+      "step_path": "benchmarks/geometries/ablation/CTRL_FACETED_SRS_d005_FLUID.step",
+      "hausdorff_max_mm": 0.77647,
+      "hausdorff_rms_mm": 0.24746
+    }
+  ],
+  "pair_b_sheet_identical_triangles": [
+    {
+      "format": "Fluent ASCII surface .msh (vertex-welded)",
+      "triangles": 57308,
+      "size_mib": 2.3244,
+      "ocp_parse_transfer_s": null
+    },
+    {
+      "format": "Binary STL (single solid)",
+      "triangles": 57308,
+      "size_mib": 2.7327,
+      "ocp_parse_transfer_s": null
+    },
+    {
+      "format": "Multi-solid ASCII STL (7 named zones)",
+      "triangles": 57308,
+      "size_mib": 15.1649,
+      "ocp_parse_transfer_s": null
+    },
+    {
+      "format": "Faceted STEP (sewn planar B-Rep faces)",
+      "triangles": 57308,
+      "size_mib": 140.413,
+      "ocp_parse_transfer_s": 64.399,
+      "ocp_heal_audit_s": 58.008,
+      "solid_count": 0
+    }
+  ]
+}

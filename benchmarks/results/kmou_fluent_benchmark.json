@@ -1,0 +1,1163 @@
+{
+  "cases": [
+    {
+      "run_id": "FL261_UC_SQ_CHANNEL_RVE40_20261126T022354Z",
+      "case_id": "UC_SQ_CHANNEL_RVE40",
+      "mode": "mesh_and_solve",
+      "stage": "COMPLETE",
+      "gpu_requested": false,
+      "cpu_ranks": 4,
+      "tasks": [
+        {
+          "task": "Import Geometry",
+          "elapsed_s": 56.61,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Add Local Sizing",
+          "elapsed_s": 0.16,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Generate the Surface Mesh",
+          "elapsed_s": 1.88,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Describe Geometry",
+          "elapsed_s": 0.11,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Update Boundaries",
+          "elapsed_s": 0.47,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Update Regions",
+          "elapsed_s": 0.12,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Generate the Volume Mesh",
+          "elapsed_s": 3.11,
+          "state": "Up-to-date"
+        }
+      ],
+      "gate": "PASS_FLUENT_LAMINAR_CONVERGED",
+      "fluent_version": "Ansys Fluent 2026 R1",
+      "pyfluent_version": "0.41.3",
+      "mesh_wall_seconds": 86.47,
+      "mesh_stats": {
+        "cells_oq_lt_0p05": 0,
+        "min_orthogonal_quality": 0.225224,
+        "cell_count": 13747
+      },
+      "solve_wall_seconds": 16.83,
+      "converged": true,
+      "iterations": 100,
+      "max_residual": 7.885749284142584e-08,
+      "residuals": {
+        "continuity": 7.885749284142584e-08,
+        "x-velocity": 9.339419165539118e-11,
+        "y-velocity": 2.689012931128557e-11,
+        "z-velocity": 8.211713468318359e-10
+      },
+      "mass_balance_error_pct": 0.0,
+      "pressure_drop_total_pa": 0.64094,
+      "pressure_drop_core_pa": 0.6636,
+      "pressure_drop_tap_pa": 0.69501,
+      "pressure_drop_pa_per_m": 16.59,
+      "darcy_permeability_m2": 2.781810676268126e-07,
+      "dimensionless_permeability_k_a2": 0.002782,
+      "reynolds_pitch": 159.4,
+      "friction_re_pitch": 718.956,
+      "core_mean_vz_m_s": 0.3897,
+      "core_mean_vxy_m_s": 0.0007,
+      "transverse_mixing_proxy_pct": 0.19,
+      "internal_wall_area_cm2": 6.58,
+      "inlet_area_mm2": 25.0,
+      "case_file": "UC_SQ_CHANNEL_RVE40_SOLVED.cas.h5",
+      "data_file": "UC_SQ_CHANNEL_RVE40_SOLVED.dat.h5",
+      "launcher_exit_code": 0,
+      "api_exit_returned": true,
+      "wall_seconds": 130.09
+    },
+    {
+      "run_id": "FL261_UC_GYROID_SRS_RVE40_20261126T022617Z",
+      "case_id": "UC_GYROID_SRS_RVE40",
+      "mode": "mesh_and_solve",
+      "stage": "COMPLETE",
+      "gpu_requested": false,
+      "cpu_ranks": 4,
+      "tasks": [
+        {
+          "task": "Import Geometry",
+          "elapsed_s": 32.14,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Add Local Sizing",
+          "elapsed_s": 0.05,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Generate the Surface Mesh",
+          "elapsed_s": 2.69,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Describe Geometry",
+          "elapsed_s": 0.11,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Update Boundaries",
+          "elapsed_s": 0.5,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Update Regions",
+          "elapsed_s": 0.09,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Generate the Volume Mesh",
+          "elapsed_s": 7.62,
+          "state": "Up-to-date"
+        }
+      ],
+      "gate": "PASS_FLUENT_LAMINAR_CONVERGED",
+      "fluent_version": "Ansys Fluent 2026 R1",
+      "pyfluent_version": "0.41.3",
+      "mesh_wall_seconds": 68.52,
+      "mesh_stats": {
+        "cells_oq_lt_0p05": 0,
+        "min_orthogonal_quality": 0.185619,
+        "cell_count": 96175
+      },
+      "solve_wall_seconds": 64.16,
+      "converged": true,
+      "iterations": 100,
+      "max_residual": 1.148195416834286e-08,
+      "residuals": {
+        "continuity": 1.148195416834286e-08,
+        "x-velocity": 1.49575772885118e-11,
+        "y-velocity": 1.187729366897806e-11,
+        "z-velocity": 5.746074661103392e-11
+      },
+      "mass_balance_error_pct": 0.0,
+      "pressure_drop_total_pa": 0.29279,
+      "pressure_drop_core_pa": 0.31165,
+      "pressure_drop_tap_pa": 0.32126,
+      "pressure_drop_pa_per_m": 7.791,
+      "darcy_permeability_m2": 5.923244893580234e-07,
+      "dimensionless_permeability_k_a2": 0.005923,
+      "reynolds_pitch": 159.4,
+      "friction_re_pitch": 337.653,
+      "core_mean_vz_m_s": 0.2849,
+      "core_mean_vxy_m_s": 0.1255,
+      "transverse_mixing_proxy_pct": 44.05,
+      "internal_wall_area_cm2": 8.618,
+      "inlet_area_mm2": 100.0,
+      "case_file": "UC_GYROID_SRS_RVE40_SOLVED.cas.h5",
+      "data_file": "UC_GYROID_SRS_RVE40_SOLVED.dat.h5",
+      "launcher_exit_code": 0,
+      "api_exit_returned": true,
+      "wall_seconds": 160.28
+    },
+    {
+      "run_id": "FL261_UC_DIAMOND_POCS_RVE40_20261126T022911Z",
+      "case_id": "UC_DIAMOND_POCS_RVE40",
+      "mode": "mesh_and_solve",
+      "stage": "COMPLETE",
+      "gpu_requested": false,
+      "cpu_ranks": 4,
+      "tasks": [
+        {
+          "task": "Import Geometry",
+          "elapsed_s": 31.66,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Add Local Sizing",
+          "elapsed_s": 0.05,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Generate the Surface Mesh",
+          "elapsed_s": 3.48,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Describe Geometry",
+          "elapsed_s": 0.09,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Update Boundaries",
+          "elapsed_s": 0.5,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Update Regions",
+          "elapsed_s": 0.12,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Generate the Volume Mesh",
+          "elapsed_s": 10.78,
+          "state": "Up-to-date"
+        }
+      ],
+      "gate": "PASS_FLUENT_LAMINAR_CONVERGED",
+      "fluent_version": "Ansys Fluent 2026 R1",
+      "pyfluent_version": "0.41.3",
+      "mesh_wall_seconds": 70.69,
+      "mesh_stats": {
+        "cells_oq_lt_0p05": 0,
+        "min_orthogonal_quality": 0.242968,
+        "cell_count": 157453
+      },
+      "solve_wall_seconds": 100.61,
+      "converged": true,
+      "iterations": 100,
+      "max_residual": 8.251452680826983e-07,
+      "residuals": {
+        "continuity": 8.251452680826983e-07,
+        "x-velocity": 1.724301442190773e-09,
+        "y-velocity": 1.711808274476229e-09,
+        "z-velocity": 3.454220658154272e-09
+      },
+      "mass_balance_error_pct": 0.0,
+      "pressure_drop_total_pa": 0.68634,
+      "pressure_drop_core_pa": 0.70125,
+      "pressure_drop_tap_pa": 0.71726,
+      "pressure_drop_pa_per_m": 17.531,
+      "darcy_permeability_m2": 2.6324413083988316e-07,
+      "dimensionless_permeability_k_a2": 0.002632,
+      "reynolds_pitch": 159.4,
+      "friction_re_pitch": 759.751,
+      "core_mean_vz_m_s": 0.2824,
+      "core_mean_vxy_m_s": 0.162,
+      "transverse_mixing_proxy_pct": 57.34,
+      "internal_wall_area_cm2": 12.0,
+      "inlet_area_mm2": 100.0,
+      "case_file": "UC_DIAMOND_POCS_RVE40_SOLVED.cas.h5",
+      "data_file": "UC_DIAMOND_POCS_RVE40_SOLVED.dat.h5",
+      "launcher_exit_code": 0,
+      "api_exit_returned": true,
+      "wall_seconds": 201.06
+    },
+    {
+      "run_id": "FL261_UC_HELIX_POCS_RVE40_20261126T023245Z",
+      "case_id": "UC_HELIX_POCS_RVE40",
+      "mode": "mesh_and_solve",
+      "stage": "COMPLETE",
+      "gpu_requested": false,
+      "cpu_ranks": 4,
+      "tasks": [
+        {
+          "task": "Import Geometry",
+          "elapsed_s": 32.27,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Add Local Sizing",
+          "elapsed_s": 0.06,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Generate the Surface Mesh",
+          "elapsed_s": 3.5,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Describe Geometry",
+          "elapsed_s": 0.11,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Update Boundaries",
+          "elapsed_s": 0.48,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Update Regions",
+          "elapsed_s": 0.12,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Generate the Volume Mesh",
+          "elapsed_s": 11.92,
+          "state": "Up-to-date"
+        }
+      ],
+      "gate": "PASS_FLUENT_LAMINAR_CONVERGED",
+      "fluent_version": "Ansys Fluent 2026 R1",
+      "pyfluent_version": "0.41.3",
+      "mesh_wall_seconds": 71.73,
+      "mesh_stats": {
+        "cells_oq_lt_0p05": 0,
+        "min_orthogonal_quality": 0.158331,
+        "cell_count": 169616
+      },
+      "solve_wall_seconds": 109.7,
+      "converged": true,
+      "iterations": 100,
+      "max_residual": 8.071349705542662e-07,
+      "residuals": {
+        "continuity": 8.071349705542662e-07,
+        "x-velocity": 1.10544275285365e-09,
+        "y-velocity": 1.687654720567085e-09,
+        "z-velocity": 4.166483013754506e-09
+      },
+      "mass_balance_error_pct": 0.0,
+      "pressure_drop_total_pa": 0.63808,
+      "pressure_drop_core_pa": 0.65565,
+      "pressure_drop_tap_pa": 0.66947,
+      "pressure_drop_pa_per_m": 16.391,
+      "darcy_permeability_m2": 2.8155459463284353e-07,
+      "dimensionless_permeability_k_a2": 0.002816,
+      "reynolds_pitch": 159.4,
+      "friction_re_pitch": 710.342,
+      "core_mean_vz_m_s": 0.2788,
+      "core_mean_vxy_m_s": 0.1508,
+      "transverse_mixing_proxy_pct": 54.1,
+      "internal_wall_area_cm2": 11.628,
+      "inlet_area_mm2": 100.0,
+      "case_file": "UC_HELIX_POCS_RVE40_SOLVED.cas.h5",
+      "data_file": "UC_HELIX_POCS_RVE40_SOLVED.dat.h5",
+      "launcher_exit_code": 0,
+      "api_exit_returned": true,
+      "wall_seconds": 211.17
+    },
+    {
+      "run_id": "FL261_UC_KELVIN_POCS_RVE40_20261126T023631Z",
+      "case_id": "UC_KELVIN_POCS_RVE40",
+      "mode": "mesh_and_solve",
+      "stage": "COMPLETE",
+      "gpu_requested": false,
+      "cpu_ranks": 4,
+      "tasks": [
+        {
+          "task": "Import Geometry",
+          "elapsed_s": 32.33,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Add Local Sizing",
+          "elapsed_s": 0.06,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Generate the Surface Mesh",
+          "elapsed_s": 3.55,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Describe Geometry",
+          "elapsed_s": 0.09,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Update Boundaries",
+          "elapsed_s": 0.48,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Update Regions",
+          "elapsed_s": 0.12,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Generate the Volume Mesh",
+          "elapsed_s": 12.36,
+          "state": "Up-to-date"
+        }
+      ],
+      "gate": "PASS_FLUENT_LAMINAR_CONVERGED",
+      "fluent_version": "Ansys Fluent 2026 R1",
+      "pyfluent_version": "0.41.3",
+      "mesh_wall_seconds": 72.41,
+      "mesh_stats": {
+        "cells_oq_lt_0p05": 0,
+        "min_orthogonal_quality": 0.22548,
+        "cell_count": 191803
+      },
+      "solve_wall_seconds": 139.64,
+      "converged": true,
+      "iterations": 100,
+      "max_residual": 2.056180507659508e-06,
+      "residuals": {
+        "continuity": 2.056180507659508e-06,
+        "x-velocity": 2.067314219355915e-09,
+        "y-velocity": 2.048725460092732e-09,
+        "z-velocity": 6.46055158683399e-09
+      },
+      "mass_balance_error_pct": 4e-05,
+      "pressure_drop_total_pa": 0.76254,
+      "pressure_drop_core_pa": 0.77801,
+      "pressure_drop_tap_pa": 0.77876,
+      "pressure_drop_pa_per_m": 19.45,
+      "darcy_permeability_m2": 2.3727160409214424e-07,
+      "dimensionless_permeability_k_a2": 0.002373,
+      "reynolds_pitch": 159.4,
+      "friction_re_pitch": 842.916,
+      "core_mean_vz_m_s": 0.2679,
+      "core_mean_vxy_m_s": 0.1129,
+      "transverse_mixing_proxy_pct": 42.12,
+      "internal_wall_area_cm2": 12.476,
+      "inlet_area_mm2": 100.0,
+      "case_file": "UC_KELVIN_POCS_RVE40_SOLVED.cas.h5",
+      "data_file": "UC_KELVIN_POCS_RVE40_SOLVED.dat.h5",
+      "launcher_exit_code": 0,
+      "api_exit_returned": true,
+      "wall_seconds": 242.95
+    },
+    {
+      "run_id": "FL261_UC_GYROID_SHEET_RVE40_20261126T024047Z",
+      "case_id": "UC_GYROID_SHEET_RVE40",
+      "mode": "mesh_and_solve",
+      "stage": "COMPLETE",
+      "gpu_requested": false,
+      "cpu_ranks": 4,
+      "tasks": [
+        {
+          "task": "Import Geometry",
+          "elapsed_s": 2.45,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Add Local Sizing",
+          "elapsed_s": 0.05,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Generate the Surface Mesh",
+          "elapsed_s": 6.8,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Describe Geometry",
+          "elapsed_s": 0.09,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Update Boundaries",
+          "elapsed_s": 0.08,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Update Regions",
+          "elapsed_s": 0.52,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Generate the Volume Mesh",
+          "elapsed_s": 13.27,
+          "state": "Up-to-date"
+        }
+      ],
+      "gate": "PASS_FLUENT_LAMINAR_CONVERGED",
+      "fluent_version": "Ansys Fluent 2026 R1",
+      "pyfluent_version": "0.41.3",
+      "mesh_wall_seconds": 47.03,
+      "mesh_stats": {
+        "cells_oq_lt_0p05": 0,
+        "min_orthogonal_quality": 0.202415,
+        "cell_count": 188385
+      },
+      "solve_wall_seconds": 253.92,
+      "converged": true,
+      "iterations": 250,
+      "max_residual": 3.74372636705096e-06,
+      "residuals": {
+        "continuity": 3.74372636705096e-06,
+        "x-velocity": 5.541223662056232e-09,
+        "y-velocity": 5.80015874627368e-09,
+        "z-velocity": 1.209892536136018e-08
+      },
+      "mass_balance_error_pct": 0.0,
+      "pressure_drop_total_pa": 5.73006,
+      "pressure_drop_core_pa": 5.73962,
+      "pressure_drop_tap_pa": 5.78288,
+      "pressure_drop_pa_per_m": 143.49,
+      "darcy_permeability_m2": 3.216241135910492e-08,
+      "dimensionless_permeability_k_a2": 0.000322,
+      "reynolds_pitch": 159.4,
+      "friction_re_pitch": 6218.439,
+      "core_mean_vz_m_s": 0.3461,
+      "core_mean_vxy_m_s": 0.4544,
+      "transverse_mixing_proxy_pct": 131.28,
+      "internal_wall_area_cm2": 24.075,
+      "inlet_area_mm2": 100.0,
+      "case_file": "UC_GYROID_SHEET_RVE40_SOLVED.cas.h5",
+      "data_file": "UC_GYROID_SHEET_RVE40_SOLVED.dat.h5",
+      "launcher_exit_code": 0,
+      "api_exit_returned": true,
+      "wall_seconds": 330.47
+    },
+    {
+      "run_id": "FL261_UC_DIAMOND_SHEET_RVE40_20261126T025308Z",
+      "case_id": "UC_DIAMOND_SHEET_RVE40",
+      "mode": "mesh_and_solve",
+      "stage": "COMPLETE",
+      "gpu_requested": false,
+      "cpu_ranks": 4,
+      "tasks": [
+        {
+          "task": "Import Geometry",
+          "elapsed_s": 2.48,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Add Local Sizing",
+          "elapsed_s": 0.06,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Generate the Surface Mesh",
+          "elapsed_s": 12.3,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Describe Geometry",
+          "elapsed_s": 0.09,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Update Boundaries",
+          "elapsed_s": 0.06,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Update Regions",
+          "elapsed_s": 0.58,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Generate the Volume Mesh",
+          "elapsed_s": 24.91,
+          "state": "Up-to-date"
+        }
+      ],
+      "gate": "PASS_FLUENT_LAMINAR_CONVERGED",
+      "fluent_version": "Ansys Fluent 2026 R1",
+      "pyfluent_version": "0.41.3",
+      "mesh_wall_seconds": 63.34,
+      "mesh_stats": {
+        "cells_oq_lt_0p05": 0,
+        "min_orthogonal_quality": 0.12097,
+        "cell_count": 383242
+      },
+      "solve_wall_seconds": 315.77,
+      "converged": true,
+      "iterations": 150,
+      "max_residual": 3.678301109945889e-06,
+      "residuals": {
+        "continuity": 3.678301109945889e-06,
+        "x-velocity": 8.199365257748609e-09,
+        "y-velocity": 8.20904370456447e-09,
+        "z-velocity": 1.64280961831635e-08
+      },
+      "residual_history_tail": [
+        {
+          "budget": 50,
+          "iteration": 50,
+          "residuals": {
+            "continuity": 0.002113272504984176,
+            "x-velocity": 5.680176422654178e-06,
+            "y-velocity": 5.776364091471237e-06,
+            "z-velocity": 7.570538272848097e-06
+          },
+          "dp_total_pa": 5.320732288156843,
+          "dp_core_pa": 5.339319382678824,
+          "dp_tap_pa": 5.381192586827019,
+          "mass_balance_error_pct": 0.0018007419257155737,
+          "inlet_mass_error_pct": 4.440892098500626e-14
+        },
+        {
+          "budget": 100,
+          "iteration": 100,
+          "residuals": {
+            "continuity": 8.32148719527457e-05,
+            "x-velocity": 2.11329411426746e-07,
+            "y-velocity": 2.084230164714813e-07,
+            "z-velocity": 3.250474669994596e-07
+          },
+          "dp_total_pa": 5.320724265624614,
+          "dp_core_pa": 5.339176055808963,
+          "dp_tap_pa": 5.381216877845128,
+          "mass_balance_error_pct": 4.285719393250807e-06,
+          "inlet_mass_error_pct": 4.440892098500626e-14
+        },
+        {
+          "budget": 150,
+          "iteration": 150,
+          "residuals": {
+            "continuity": 3.678301109945889e-06,
+            "x-velocity": 8.199365257748609e-09,
+            "y-velocity": 8.20904370456447e-09,
+            "z-velocity": 1.64280961831635e-08
+          },
+          "dp_total_pa": 5.320725700042887,
+          "dp_core_pa": 5.339176485151147,
+          "dp_tap_pa": 5.3812181121193,
+          "mass_balance_error_pct": 1.049783394990565e-05,
+          "inlet_mass_error_pct": 4.440892098500626e-14
+        }
+      ],
+      "mass_balance_error_pct": 1e-05,
+      "pressure_drop_total_pa": 5.32073,
+      "pressure_drop_core_pa": 5.33918,
+      "pressure_drop_tap_pa": 5.38122,
+      "pressure_drop_pa_per_m": 133.479,
+      "darcy_permeability_m2": 3.457462035828811e-08,
+      "dimensionless_permeability_k_a2": 0.000346,
+      "reynolds_pitch": 159.4,
+      "friction_re_pitch": 5784.59,
+      "core_mean_vz_m_s": 0.3408,
+      "core_mean_vxy_m_s": 0.4092,
+      "transverse_mixing_proxy_pct": 120.06,
+      "internal_wall_area_cm2": 29.638,
+      "inlet_area_mm2": 100.0,
+      "case_file": "UC_DIAMOND_SHEET_RVE40_SOLVED.cas.h5",
+      "data_file": "UC_DIAMOND_SHEET_RVE40_SOLVED.dat.h5",
+      "launcher_exit_code": 0,
+      "api_exit_returned": true,
+      "wall_seconds": 412.84
+    },
+    {
+      "run_id": "FL261_UC_SCHWARZ_P_SHEET_RVE40_20261126T030015Z",
+      "case_id": "UC_SCHWARZ_P_SHEET_RVE40",
+      "mode": "mesh_and_solve",
+      "stage": "COMPLETE",
+      "gpu_requested": false,
+      "cpu_ranks": 4,
+      "tasks": [
+        {
+          "task": "Import Geometry",
+          "elapsed_s": 2.31,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Add Local Sizing",
+          "elapsed_s": 0.06,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Generate the Surface Mesh",
+          "elapsed_s": 5.12,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Describe Geometry",
+          "elapsed_s": 0.11,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Update Boundaries",
+          "elapsed_s": 0.06,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Update Regions",
+          "elapsed_s": 0.52,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Generate the Volume Mesh",
+          "elapsed_s": 9.09,
+          "state": "Up-to-date"
+        }
+      ],
+      "gate": "HOLD_FLUENT_CONVERGENCE",
+      "fluent_version": "Ansys Fluent 2026 R1",
+      "pyfluent_version": "0.41.3",
+      "mesh_wall_seconds": 39.98,
+      "mesh_stats": {
+        "cells_oq_lt_0p05": 0,
+        "min_orthogonal_quality": 0.425143,
+        "cell_count": 106931
+      },
+      "solve_wall_seconds": 288.73,
+      "converged": false,
+      "iterations": 500,
+      "max_residual": 0.01895190596547501,
+      "residuals": {
+        "continuity": 0.01895190596547501,
+        "x-velocity": 1.675870723335591e-05,
+        "y-velocity": 1.651051244184519e-05,
+        "z-velocity": 9.811218193070841e-05
+      },
+      "residual_history_tail": [
+        {
+          "budget": 350,
+          "iteration": 350,
+          "residuals": {
+            "continuity": 0.01935342600189258,
+            "x-velocity": 1.783738140646478e-05,
+            "y-velocity": 1.809809175737923e-05,
+            "z-velocity": 9.46001616450331e-05
+          },
+          "dp_total_pa": 3.309247998105166,
+          "dp_core_pa": 3.3607938307476783,
+          "dp_tap_pa": 3.529245391867994,
+          "mass_balance_error_pct": 0.056251257970739724,
+          "inlet_mass_error_pct": 8.881784197001252e-14
+        },
+        {
+          "budget": 400,
+          "iteration": 400,
+          "residuals": {
+            "continuity": 0.02219117312954012,
+            "x-velocity": 1.906157200884868e-05,
+            "y-velocity": 2.014419398589621e-05,
+            "z-velocity": 0.0001083132886904188
+          },
+          "dp_total_pa": 3.3099078593903197,
+          "dp_core_pa": 3.3621306278683942,
+          "dp_tap_pa": 3.5304707427804276,
+          "mass_balance_error_pct": 0.06709420919656789,
+          "inlet_mass_error_pct": 8.881784197001252e-14
+        },
+        {
+          "budget": 450,
+          "iteration": 450,
+          "residuals": {
+            "continuity": 0.02242968553973021,
+            "x-velocity": 1.942544884602632e-05,
+            "y-velocity": 1.930473329314345e-05,
+            "z-velocity": 0.0001167247481227265
+          },
+          "dp_total_pa": 3.312298504632176,
+          "dp_core_pa": 3.3620710481391596,
+          "dp_tap_pa": 3.530721791393296,
+          "mass_balance_error_pct": 0.0222154416265092,
+          "inlet_mass_error_pct": 8.881784197001252e-14
+        },
+        {
+          "budget": 500,
+          "iteration": 500,
+          "residuals": {
+            "continuity": 0.01895190596547501,
+            "x-velocity": 1.675870723335591e-05,
+            "y-velocity": 1.651051244184519e-05,
+            "z-velocity": 9.811218193070841e-05
+          },
+          "dp_total_pa": 3.311705180669615,
+          "dp_core_pa": 3.361189175961525,
+          "dp_tap_pa": 3.530202342602005,
+          "mass_balance_error_pct": 0.07359129920445805,
+          "inlet_mass_error_pct": 8.881784197001252e-14
+        }
+      ],
+      "mass_balance_error_pct": 0.07359,
+      "pressure_drop_total_pa": 3.31171,
+      "pressure_drop_core_pa": 3.36119,
+      "pressure_drop_tap_pa": 3.5302,
+      "pressure_drop_pa_per_m": 84.03,
+      "darcy_permeability_m2": 5.492103845871515e-08,
+      "dimensionless_permeability_k_a2": 0.000549,
+      "reynolds_pitch": 159.4,
+      "friction_re_pitch": 3641.592,
+      "core_mean_vz_m_s": 0.3109,
+      "core_mean_vxy_m_s": 0.2296,
+      "transverse_mixing_proxy_pct": 73.85,
+      "internal_wall_area_cm2": 18.566,
+      "inlet_area_mm2": 100.0,
+      "case_file": "UC_SCHWARZ_P_SHEET_RVE40_SOLVED.cas.h5",
+      "data_file": "UC_SCHWARZ_P_SHEET_RVE40_SOLVED.dat.h5",
+      "launcher_exit_code": 0,
+      "api_exit_returned": true,
+      "wall_seconds": 356.23
+    },
+    {
+      "run_id": "FL261_UC_IWP_SHEET_RVE40_20261126T060657Z",
+      "case_id": "UC_IWP_SHEET_RVE40",
+      "mode": "mesh_and_solve",
+      "stage": "COMPLETE",
+      "gpu_requested": false,
+      "cpu_ranks": 4,
+      "tasks": [
+        {
+          "task": "Import Geometry",
+          "elapsed_s": 2.98,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Add Local Sizing",
+          "elapsed_s": 0.05,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Generate the Surface Mesh",
+          "elapsed_s": 12.56,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Describe Geometry",
+          "elapsed_s": 0.11,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Update Boundaries",
+          "elapsed_s": 0.06,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Update Regions",
+          "elapsed_s": 0.64,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Generate the Volume Mesh",
+          "elapsed_s": 82.3,
+          "state": "Up-to-date"
+        }
+      ],
+      "gate": "PASS_FLUENT_LAMINAR_CONVERGED",
+      "fluent_version": "Ansys Fluent 2026 R1",
+      "pyfluent_version": "0.41.3",
+      "mesh_wall_seconds": 123.47,
+      "mesh_stats": {
+        "cells_oq_lt_0p05": 1,
+        "min_orthogonal_quality": 0.028718,
+        "cell_count": 462652
+      },
+      "solve_wall_seconds": 931.73,
+      "converged": true,
+      "iterations": 350,
+      "max_residual": 5.882254938443431e-06,
+      "residuals": {
+        "continuity": 5.882254938443431e-06,
+        "x-velocity": 1.283031050778752e-08,
+        "y-velocity": 1.13663350345682e-08,
+        "z-velocity": 5.1665039031192e-08
+      },
+      "residual_history_tail": [
+        {
+          "budget": 200,
+          "iteration": 200,
+          "residuals": {
+            "continuity": 0.0001730856968085665,
+            "x-velocity": 3.625779028667851e-07,
+            "y-velocity": 3.431017508595595e-07,
+            "z-velocity": 1.480849631897628e-06
+          },
+          "dp_total_pa": 1.9699256748970542,
+          "dp_core_pa": 2.056600985056467,
+          "dp_tap_pa": 2.137456257771365,
+          "mass_balance_error_pct": 3.166474491598489e-05,
+          "inlet_mass_error_pct": 7.771561172376096e-14
+        },
+        {
+          "budget": 250,
+          "iteration": 250,
+          "residuals": {
+            "continuity": 5.619201018646482e-05,
+            "x-velocity": 1.204868471184737e-07,
+            "y-velocity": 1.095428607213925e-07,
+            "z-velocity": 4.871066444457266e-07
+          },
+          "dp_total_pa": 1.9698742483201226,
+          "dp_core_pa": 2.0565259994367273,
+          "dp_tap_pa": 2.13704386153143,
+          "mass_balance_error_pct": 3.6515196261999964e-05,
+          "inlet_mass_error_pct": 7.771561172376096e-14
+        },
+        {
+          "budget": 300,
+          "iteration": 300,
+          "residuals": {
+            "continuity": 1.761018410091269e-05,
+            "x-velocity": 3.847022164214341e-08,
+            "y-velocity": 3.402474700394948e-08,
+            "z-velocity": 1.547492405543568e-07
+          },
+          "dp_total_pa": 1.9698551986401946,
+          "dp_core_pa": 2.05650382941349,
+          "dp_tap_pa": 2.1369398311059284,
+          "mass_balance_error_pct": 2.948677566483447e-05,
+          "inlet_mass_error_pct": 7.771561172376096e-14
+        },
+        {
+          "budget": 350,
+          "iteration": 350,
+          "residuals": {
+            "continuity": 5.882254938443431e-06,
+            "x-velocity": 1.283031050778752e-08,
+            "y-velocity": 1.13663350345682e-08,
+            "z-velocity": 5.1665039031192e-08
+          },
+          "dp_total_pa": 1.9698489309822607,
+          "dp_core_pa": 2.05649703745666,
+          "dp_tap_pa": 2.136910437438821,
+          "mass_balance_error_pct": 7.29754049816216e-06,
+          "inlet_mass_error_pct": 7.771561172376096e-14
+        }
+      ],
+      "mass_balance_error_pct": 1e-05,
+      "pressure_drop_total_pa": 1.96985,
+      "pressure_drop_core_pa": 2.0565,
+      "pressure_drop_tap_pa": 2.13691,
+      "pressure_drop_pa_per_m": 51.412,
+      "darcy_permeability_m2": 8.976429172409658e-08,
+      "dimensionless_permeability_k_a2": 0.000898,
+      "reynolds_pitch": 159.4,
+      "friction_re_pitch": 2228.057,
+      "core_mean_vz_m_s": 0.2847,
+      "core_mean_vxy_m_s": 0.1041,
+      "transverse_mixing_proxy_pct": 36.55,
+      "internal_wall_area_cm2": 29.2,
+      "inlet_area_mm2": 100.0,
+      "case_file": "UC_IWP_SHEET_RVE40_SOLVED.cas.h5",
+      "data_file": "UC_IWP_SHEET_RVE40_SOLVED.dat.h5",
+      "launcher_exit_code": 0,
+      "api_exit_returned": true,
+      "wall_seconds": 1094.0
+    },
+    {
+      "run_id": "FL261_UC_GRADED_GYROID_RVE40_20261126T030622Z",
+      "case_id": "UC_GRADED_GYROID_RVE40",
+      "mode": "mesh_and_solve",
+      "stage": "COMPLETE",
+      "gpu_requested": false,
+      "cpu_ranks": 4,
+      "tasks": [
+        {
+          "task": "Import Geometry",
+          "elapsed_s": 2.42,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Add Local Sizing",
+          "elapsed_s": 0.06,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Generate the Surface Mesh",
+          "elapsed_s": 6.47,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Describe Geometry",
+          "elapsed_s": 0.11,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Update Boundaries",
+          "elapsed_s": 0.06,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Update Regions",
+          "elapsed_s": 0.53,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Generate the Volume Mesh",
+          "elapsed_s": 12.61,
+          "state": "Up-to-date"
+        }
+      ],
+      "gate": "PASS_FLUENT_LAMINAR_CONVERGED",
+      "fluent_version": "Ansys Fluent 2026 R1",
+      "pyfluent_version": "0.41.3",
+      "mesh_wall_seconds": 45.02,
+      "mesh_stats": {
+        "cells_oq_lt_0p05": 0,
+        "min_orthogonal_quality": 0.203185,
+        "cell_count": 180981
+      },
+      "solve_wall_seconds": 287.97,
+      "converged": true,
+      "iterations": 300,
+      "max_residual": 7.970020729751815e-06,
+      "residuals": {
+        "continuity": 7.970020729751815e-06,
+        "x-velocity": 1.350420465915733e-08,
+        "y-velocity": 1.469105590932016e-08,
+        "z-velocity": 2.980016277518859e-08
+      },
+      "residual_history_tail": [
+        {
+          "budget": 150,
+          "iteration": 150,
+          "residuals": {
+            "continuity": 0.0004262101793455763,
+            "x-velocity": 7.091220982943159e-07,
+            "y-velocity": 7.742284857208378e-07,
+            "z-velocity": 1.568459207201699e-06
+          },
+          "dp_total_pa": 5.527880284585338,
+          "dp_core_pa": 5.5646491308161705,
+          "dp_tap_pa": 5.581607779360398,
+          "mass_balance_error_pct": 1.7615320546521838e-05,
+          "inlet_mass_error_pct": 4.440892098500626e-14
+        },
+        {
+          "budget": 200,
+          "iteration": 200,
+          "residuals": {
+            "continuity": 0.0001089737584656493,
+            "x-velocity": 1.854840886158756e-07,
+            "y-velocity": 2.019957552111897e-07,
+            "z-velocity": 4.083749463821035e-07
+          },
+          "dp_total_pa": 5.527818203013409,
+          "dp_core_pa": 5.564722871976474,
+          "dp_tap_pa": 5.581596063740763,
+          "mass_balance_error_pct": 2.0802183075390736e-05,
+          "inlet_mass_error_pct": 4.440892098500626e-14
+        },
+        {
+          "budget": 250,
+          "iteration": 250,
+          "residuals": {
+            "continuity": 2.94907534327332e-05,
+            "x-velocity": 4.996270279041438e-08,
+            "y-velocity": 5.443830340295071e-08,
+            "z-velocity": 1.102576979807497e-07
+          },
+          "dp_total_pa": 5.527803123395979,
+          "dp_core_pa": 5.564743107411074,
+          "dp_tap_pa": 5.58159474452669,
+          "mass_balance_error_pct": 1.1357853730087768e-05,
+          "inlet_mass_error_pct": 4.440892098500626e-14
+        },
+        {
+          "budget": 300,
+          "iteration": 300,
+          "residuals": {
+            "continuity": 7.970020729751815e-06,
+            "x-velocity": 1.350420465915733e-08,
+            "y-velocity": 1.469105590932016e-08,
+            "z-velocity": 2.980016277518859e-08
+          },
+          "dp_total_pa": 5.527799551243728,
+          "dp_core_pa": 5.5647489219737505,
+          "dp_tap_pa": 5.581594775175133,
+          "mass_balance_error_pct": 1.7325101421832692e-06,
+          "inlet_mass_error_pct": 4.440892098500626e-14
+        }
+      ],
+      "mass_balance_error_pct": 0.0,
+      "pressure_drop_total_pa": 5.5278,
+      "pressure_drop_core_pa": 5.56475,
+      "pressure_drop_tap_pa": 5.58159,
+      "pressure_drop_pa_per_m": 139.119,
+      "darcy_permeability_m2": 3.317310494837646e-08,
+      "dimensionless_permeability_k_a2": 0.000332,
+      "reynolds_pitch": 159.4,
+      "friction_re_pitch": 6028.98,
+      "core_mean_vz_m_s": 0.3394,
+      "core_mean_vxy_m_s": 0.4343,
+      "transverse_mixing_proxy_pct": 127.96,
+      "internal_wall_area_cm2": 24.139,
+      "inlet_area_mm2": 100.0,
+      "case_file": "UC_GRADED_GYROID_RVE40_SOLVED.cas.h5",
+      "data_file": "UC_GRADED_GYROID_RVE40_SOLVED.dat.h5",
+      "launcher_exit_code": 0,
+      "api_exit_returned": true,
+      "wall_seconds": 362.61
+    },
+    {
+      "run_id": "FL261_MONO_GYROID_SRS_30x30x60_20261126T031235Z",
+      "case_id": "MONO_GYROID_SRS_30x30x60",
+      "mode": "mesh_only",
+      "stage": "COMPLETE",
+      "gpu_requested": false,
+      "cpu_ranks": 4,
+      "tasks": [
+        {
+          "task": "Import Geometry",
+          "elapsed_s": 36.64,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Add Local Sizing",
+          "elapsed_s": 0.06,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Generate the Surface Mesh",
+          "elapsed_s": 12.02,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Describe Geometry",
+          "elapsed_s": 0.11,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Update Boundaries",
+          "elapsed_s": 0.06,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Update Regions",
+          "elapsed_s": 0.69,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Generate the Volume Mesh",
+          "elapsed_s": 60.47,
+          "state": "Up-to-date"
+        }
+      ],
+      "gate": "PASS_FLUENT_POLY_MESH",
+      "fluent_version": "Ansys Fluent 2026 R1",
+      "pyfluent_version": "0.41.3",
+      "mesh_wall_seconds": 133.03,
+      "mesh_stats": {
+        "cells_oq_lt_0p05": 0,
+        "min_orthogonal_quality": 0.116172,
+        "cell_count": 1021653
+      },
+      "case_file": "MONO_GYROID_SRS_30x30x60_MESH.cas.h5",
+      "launcher_exit_code": 0,
+      "api_exit_returned": true,
+      "wall_seconds": 194.61
+    },
+    {
+      "run_id": "FL261_CTRL_UNMERGED_GYROID_STL_20261126T031602Z",
+      "case_id": "CTRL_UNMERGED_GYROID_STL",
+      "mode": "negative_control",
+      "stage": "COMPLETE",
+      "gpu_requested": false,
+      "cpu_ranks": 4,
+      "tasks": [
+        {
+          "task": "Import Geometry",
+          "elapsed_s": 3.17,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Add Local Sizing",
+          "elapsed_s": 0.05,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Generate the Surface Mesh",
+          "elapsed_s": 41.25,
+          "state": "Up-to-date"
+        },
+        {
+          "task": "Describe Geometry",
+          "elapsed_s": 0.09,
+          "state": "Up-to-date"
+        }
+      ],
+      "gate": "EXPECTED_FAIL_OPEN_BAFFLE",
+      "fluent_version": "Ansys Fluent 2026 R1",
+      "pyfluent_version": "0.41.3",
+      "failure_stage": "Describe Geometry",
+      "failure_message": "Exception encountered in S_ExecuteTask: The Intersect operation in the Apply Share Topology task was not successful. Try to use the Boolean intersect operation within SpaceClaim or DesignModeler instead.",
+      "launcher_exit_code": 0,
+      "api_exit_returned": true,
+      "wall_seconds": 83.53
+    }
+  ]
+}
