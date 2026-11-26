@@ -43,7 +43,7 @@ Commercial ANSYS SpaceClaim and Fluent verification runners (`benchmarks/run_kmo
 
 If you use `tpms2cfd` in academic work, please cite [`CITATION.cff`](CITATION.cff):
 
-- **Tae-Hyung Kim** (`ttthkim@gmail.com`, Korea Institute of Limestone and Advanced Materials, ORCID `0009-0003-5047-7501`) — Corresponding author
+- **Tae-Hyung Kim** (`ttthkim@gmail.com`, Korea Institute of Limestone and Advanced Materials, ORCID `0009-0003-5047-7501`) — First author
 - **Bora Jeong** (`bora1106@kitech.re.kr`, Korea Institute of Industrial Technology)
 - **Min-Woo Lee**
 - **Young-Jin Kim** (Korea Institute of Limestone and Advanced Materials) — Corresponding author
